@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Bodega vs Lightning</title><style>
+body{margin:0;font-family:system-ui,sans-serif;background:#0f1630;color:#f4f1ea}a{color:#ffd166}
+h1{margin:14px 14px 4px;font-size:22px}h2{font-size:18px;margin:0 0 8px}.sub{margin:0 14px;font-size:13px;opacity:.85}
+.sec{margin:12px 10px;padding:12px;border-radius:16px;background:#1b2448}.ill{display:inline-block;background:#ff6b6b33;color:#ffb3b3;border-radius:6px;padding:1px 6px;font-size:10px;font-weight:700}
+.est{background:#ffd16633;color:#ffd166;border-radius:5px;padding:0 4px;font-size:10px}.src{font-size:10px;opacity:.75}
+label{display:block;font-size:12px;margin:8px 0 2px}input[type=range]{width:100%}input[type=number]{width:70px;background:#0f1630;color:#fff;border:1px solid #445;border-radius:6px;padding:3px}
+.bar{margin:8px 0}.bar .l{font-size:12px;display:flex;justify-content:space-between}.bar .t{height:22px;background:#0f1630;border-radius:8px;position:relative;overflow:hidden}.bar .f{position:absolute;top:0;bottom:0;border-radius:8px}
+.zone{display:flex;height:46px;border-radius:12px;overflow:hidden;font-size:11px;font-weight:700;text-align:center}.zone div{display:flex;align-items:center;justify-content:center;padding:2px}
+.card{background:#25305c;border-radius:12px;padding:10px;margin:8px 0}.card .q{font-weight:800;color:#ff8fa3}.card .r{margin:4px 0}.card .p{font-size:12px;color:#9fe3b5}.card .s{font-size:12px}
+ul{padding-left:18px;margin:4px 0;font-size:13px}.k{font-size:24px;font-weight:800;color:#ffd166}.g{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+</style></head><body>
+<h1>🏪 vs ⚡ Bodega vs Lightning</h1><p class=sub>Sheehan valuation mockup + objection playbook. <a href="index.html">← Tier Map</a></p>
+<div class=sec style="background:linear-gradient(135deg,#3a1d5c,#1b2448)"><b>Michael's frame:</b> “I didn't run a petting zoo making $150–200k for 3 years. I built a software/platform company that pivoted to what the market wants. The petting zoo is the revenue-proving wedge. Franchisees own the farm and lease it out like a mall; lawyers handle liability. Small businesses are bodegas — most unfunded ones fail — or they catch lightning. I'm playing for lightning.”</div>
+
+<div class=sec id=deal><h2>🎯 Define the Deal Space <span class=ill>ILLUSTRATIVE</span></h2>
+<div class=sub style="margin:0 0 6px">Set the frame before anyone opens a spreadsheet. Zones update from the sliders below.</div>
+<div class=zone id=zone></div><div id=zonev style="font-size:12px;margin-top:6px"></div>
+<div class=g style="margin-top:8px"><div class=card><b>🔒 Non-negotiables</b><ul><li>Valued as a platform + franchise system, not a local zoo</li><li>Software/IP and brand stay in the company</li><li>Founder control through the next proof milestone</li><li>Ann-Marie's sweat equity recognized</li></ul></div>
+<div class=card><b>🚪 Walk-away triggers</b><ul><li>Anyone pricing it as a local petting zoo on SDE = conversation over</li><li>Terms that treat apps & accounts as $0</li><li>Personal guarantees on equity money</li><li>Heavy liquidation prefs / full-ratchet</li></ul></div></div>
+<div class=card><b>🗣️ Anchoring lines (say these first)</b><ul><li>“Before we look at numbers, let's agree on what we're valuing: a platform with a live revenue wedge, not a farm.”</li><li>“The comps here are franchise systems and vertical software, not Main Street service sales.”</li><li>“If the model is SDE, we're not talking about the same company.”</li><li>“The question isn't what it made last year — it's what each new territory and enterprise account adds.”</li></ul></div></div>
+
+<div class=sec><h2>📊 1) Same revenue, four lenses <span class=ill>ILLUSTRATIVE</span></h2>
+<label>Annual revenue: <b id=rv></b></label><input type=range id=rev min=100000 max=3000000 step=25000 value=200000>
+<label>Recurring % (memberships, contracts, software): <b id=rcv></b></label><input type=range id=rec min=0 max=100 value=30>
+<label>SDE/EBITDA margin %: <b id=mgv></b></label><input type=range id=mg min=5 max=50 value=30>
+<label>Recurring-services premium multiple (your assumption, × revenue): <input type=number id=pm value=1.0 step=0.1> <span class=est>ASSUMPTION</span></label>
+<div id=bars></div>
+<div class=src>(a) BizBuySell Insight Q2 2026: avg 2.7× cash flow (SDE); Entertainment & Recreation sector ~2.8× (Q3'21–Q2'26). Range shown 2.0–3.0×. (b) No public benchmark found for this blend: it's your input. (c) Restaurant franchisor M&A, last 5 yrs: median 1.3× / mean 2.6× EV/Sales, median ~10.1× EV/EBITDA (Mergers & Tribulations deal set, Oct 2025); public franchisor comps avg 9.3× / median 6.5× EBITDA (Seale & Assoc., Q4 2025). Restaurant comps, not animal services. (d) SaaS Capital Index 4.2× ARR (Sep 30 2026); private SaaS median ~4–5×, top quartile 7–9× (L40, 2026). Applied to the recurring share only, with the rest valued at lens (a).</div></div>
+
+<div class=sec><h2>🎣 2) The fishing pond</h2><svg id=pond viewBox="0 0 360 360" width=100%></svg><div id=pondk style="font-size:12px"></div>
+<div class=src>Sourced: FL CDDs 1,067 (UF Warrington, Aug 20 2025); US community associations ~373,000 (CAI Foundation, end-2025); senior living 14,780 communities in NIC MAP's 99 markets: 1,043 CCRCs + 13,737 others (NIC, 4Q 2025). <span class=est>Michael's estimates</span>: Jacksonville TAM ~$300M, mobile-petting-zoo-priced slice ~$200M, 15–20 State of Florida accounts.</div></div>
+
+<div class=sec><h2>🌺 3) “All three of a type” <span class=ill>ADJUSTABLE</span></h2>
+<div style="font-size:13px">Michael has all three gardens in Jacksonville, on a sweetheart deal. If that holds for one venue type in one city, the enterprise play is: price per site × number of sites.</div>
+<label>Sites nationally: <input type=number id=sites value=328></label><div class=src>Default 328 = APGA member public gardens with budgets under $1M (FY2025 survey). That's a floor; there are more gardens nationally.</div>
+<label>Annual price per site $: <input type=number id=pps value=12000 step=1000> <span class=est>ASSUMPTION</span></label>
+<label>Win rate %: <input type=number id=win value=10></label>
+<div class=g id=tiers></div>
+<div class=card><b>💡 Sell to the marketers</b><div class=s>Senior living: NIC tracks 14,780 communities. A community charging ~$5k/mo per room <span class=est>Michael's example</span> spends on resident engagement and on move-in marketing. A bunny program sells as a marketing line item, not a cost. Use the numbers below as a test, not a forecast.</div>
+<label>Communities: <input type=number id=sl value=14780></label><label>$/yr per community: <input type=number id=slp value=6000 step=500> <span class=est>ASSUMPTION</span></label><label>Win %: <input type=number id=slw value=2></label><div class=k id=slo></div></div></div>
+
+<div class=sec><h2>🛡️ 4) Objection playbook</h2><div id=obj></div></div>
+<div class=sec class=src style="font-size:11px"><b>Sources</b><ul>
+<li><a href="https://www.bizbuysell.com/insight-report/">BizBuySell Insight Report Q2 2026</a> · <a href="https://www.bizbuysell.com/learning-center/industry-valuation-multiples/">Industry multiples (Q3'21–Q2'26)</a></li>
+<li><a href="https://mergersandtribulations.com/deals/del-taco-yadav-enterprises-2025">Mergers & Tribulations restaurant/franchise deal set (Oct 2025)</a> · <a href="https://sealeassociates.com/hubfs/Restaurants%20Q4%202025%20ENG.pdf">Seale & Associates Q4 2025</a></li>
+<li><a href="https://www.saas-capital.com/the-saas-capital-index/">SaaS Capital Index (Sep 30 2026)</a> · <a href="https://www.l40.com/insights/saas-multiples">L40 SaaS multiples 2026</a></li>
+<li><a href="https://warrington.ufl.edu/news/hidden-engine-of-suburban-growth/">UF Warrington: FL CDDs (Aug 2025)</a> · <a href="https://foundation.caionline.org/research/industry-data/">CAI Foundation (2025)</a> · <a href="https://www.nic.org/blog/ccrc-performance-4q-2025/">NIC 4Q 2025</a> · <a href="https://www.publicgardens.org/collective-impact/">APGA FY2025</a></li></ul>All valuations are illustrative and not an appraisal or investment advice.</div>
+<script>
+const $=id=>document.getElementById(id),M=v=>v>=1e9?'$'+(v/1e9).toFixed(1)+'B':v>=1e6?'$'+(v/1e6).toFixed(2)+'M':'$'+Math.round(v/1e3)+'k';
+function calc(){const R=+$('rev').value,rc=$('rec').value/100,m=$('mg').value/100,pm=+$('pm').value||0,S=R*m;
+$('rv').textContent=M(R);$('rcv').textContent=Math.round(rc*100)+'%';$('mgv').textContent=Math.round(m*100)+'%';
+const L=[["🏪 (a) Bodega / local service (SDE 2–3×)",S*2,S*3,"#e76f51"],["📋 (b) Professionalized recurring B2B",S*2*(1-rc)+R*rc*pm*0.8,S*3*(1-rc)+R*rc*pm*1.2,"#f4a261"],["🏬 (c) Franchise system (1.3–2.6× EV/Sales)",R*1.3,R*2.6,"#2a9d8f"],["⚡ (d) Platform: recurring at 4–9× ARR, rest SDE",S*2*(1-rc)+R*rc*4,S*3*(1-rc)+R*rc*9,"#8338ec"]];
+const mx=Math.max(...L.map(l=>l[2]));$('bars').innerHTML=L.map(l=>`<div class=bar><div class=l><span>${l[0]}</span><b>${M(l[1])}–${M(l[2])}</b></div><div class=t><div class=f style="left:${l[1]/mx*100}%;width:${Math.max(1,(l[2]-l[1])/mx*100)}%;background:${l[3]}"></div></div></div>`).join('');
+const z=[["Insult / walk-away",L[0][2],"#9b2226"],["Fair",L[2][1],"#ca6702"],["Target",L[3][1],"#2a9d8f"],["Stretch",L[3][2],"#8338ec"]];
+$('zone').innerHTML=z.map(x=>`<div style="flex:1;background:${x[2]}">${x[0]}</div>`).join('');
+$('zonev').innerHTML=`Below <b>${M(L[0][2])}</b> = bodega pricing, walk away · Fair from <b>${M(L[2][1])}</b> · Target <b>${M(L[3][1])}+</b> · Stretch up to <b>${M(L[3][2])}</b>`;
+const n=+$('sites').value,p=+$('pps').value,w=$('win').value/100;$('tiers').innerHTML=[["Pilot (5 sites)",5],["Win-rate case",Math.round(n*w)],["Half",Math.round(n/2)],["All sites",n]].map(t=>`<div class=card><div class=s>${t[0]}: ${t[1]} sites</div><div class=k>${M(t[1]*p)}/yr</div></div>`).join('');
+$('slo').textContent=M($('sl').value*$('slp').value*$('slw').value/100)+'/yr';}
+document.querySelectorAll('input').forEach(i=>i.oninput=calc);calc();
+// pond
+const rings=[["Senior living (US)","14,780 communities · NIC","#577590",170],["HOAs/condos (US)","~373,000 · CAI","#43aa8b",140],["FL CDDs","1,067 · UF/FL","#90be6d",110],["State of FL accounts","15–20 now (Michael)","#f9c74f",80],["Jacksonville TAM","~$300M (Michael's est.)","#f8961e",50]];
+let s='';rings.forEach(r=>s+=`<circle cx=180 cy=180 r=${r[3]} fill="${r[2]}" stroke="#0f1630" stroke-width=2 />`);
+const a=2*Math.PI*200/300;s+=`<path d="M180 180 L180 130 A50 50 0 1 1 ${180+50*Math.sin(a)} ${180-50*Math.cos(a)} Z" fill="#f94144"/>`;
+rings.forEach(r=>s+=`<text x=180 y=${180-r[3]+14} text-anchor=middle font-size=10 font-weight=700 fill="#111">${r[0]}</text>`);
+s+='<text x=180 y=192 text-anchor=middle font-size=9 fill="#fff" font-weight=700>🐰 ~$200M slice</text>';$('pond').innerHTML=s;
+$('pondk').innerHTML=rings.map(r=>`<div><span style="color:${r[2]}">●</span> ${r[0]}: ${r[1]}</div>`).join('')+'<div><span style="color:#f94144">●</span> Mobile-petting-zoo-priced share of Jax: ~$200M (Michael\'s est.), a big piece of budgets nobody is capturing yet</div><div class=src>Rings show reach outward, not to scale.</div>';
+// objections
+const O=[["You're just a petting zoo.","It's a platform company with a live revenue wedge. The zoo proves people pay, and the software and franchise model are how it scales.","3 years of revenue, self-funded with Ann-Marie; apps built in-house","Tier Map row 2→3","index.html"],
+["It's a bodega.","Bodegas stay small because they never build a system. This one is built to franchise and license.","Franchise model: franchisee owns the farm and leases it out like a mall","Multiples demo","#deal"],
+["Lifestyle business.","A lifestyle business doesn't pivot to what the market wants. This one has, more than once.","Pivots toward senior living, state accounts, and gardens","Pond","#pond"],
+["Not scalable.","Scale comes from enterprise account types. Win all of one type in a city, then repeat that type nationally.","All three Jacksonville gardens","All-three scenario","#sites"],
+["Liability risk.","It's a known, insurable risk, handled by lawyers and contracts. Franchisees carry their own site risk.","Years of events, including state accounts","Non-negotiables","#deal"],
+["Animals don't franchise.","Experiences franchise all the time. The animals are inventory; the system is the product.","Operator playbook + booking software","Franchise lens (c)","#bars"],
+["There's no tech.","The tech is already running: booking, membership, and operator apps.","Live apps at code4crittersoncallapps.github.io","Platform lens (d)","#bars"],
+["Revenue is small.","Revenue is proof, not the ceiling. Look at what each new territory or account type adds.","15–20 State of Florida accounts","Pond + sliders","#pond"],
+["It's founder-dependent.","That's exactly what this capital fixes: crews, an ops lead, and SOPs.","Systems and apps already documented","Tier Map: hire ops lead","index.html"],
+["Why fund you?","Self-funded for 3 years, accounts landed, platform built. Capital speeds up something that already works.","Self-funded with Ann-Marie; all 3 gardens; state accounts","Deal space","#deal"]];
+$('obj').innerHTML=O.map(o=>`<div class=card><div class=q>They say: “${o[0]}”</div><div class=r>↪ ${o[1]}</div><div class=p>✅ Proof: ${o[2]}</div><div class=s>👉 Show them: <a href="${o[4]}">${o[3]}</a></div></div>`).join('');
+</script></body></html>
