@@ -18,4 +18,4 @@ rows.innerHTML=D.R.map((r,i)=>`<div class=row style="--c:${r[3]}"><div class=rh 
 function show(i,j){const s=D.R[i][5][j],e=document.getElementById("d"+i);document.querySelectorAll(`.st[data-r="${i}"]`).forEach(x=>x.classList.toggle("on",+x.dataset.s==j));
 e.innerHTML=`<h3 style="margin:4px 0">${s[0]}</h3>`+T.map((t,k)=>`<div class="t ${t[0]}"><h4>${t[1]}</h4>${L(s[k+1])}</div>`).join("")+`<div class="t F"><h4>🚩 Red flags</h4>${L(s[4])}</div><div class="t V"><h4>💲 Valuation method</h4>${s[5]}</div><div class="t C"><h4>🏦 Typical check sources</h4>${s[6]}</div>`;e.classList.add("show")}
 document.querySelectorAll(".st").forEach(x=>x.onclick=()=>show(+x.dataset.r,+x.dataset.s));D.R.forEach((r,i)=>show(i,i==1||i==2?1:0));
-</script></body></html>
+</script><script src="https://code4crittersoncallapps.github.io/market-universe/nav.js" defer></script></body></html>
